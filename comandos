@@ -1,0 +1,7 @@
+--servicio ssh
+systemctl status sshd
+--ver ip
+ip addr
+--ver directorio donde estamos
+pwd
+
