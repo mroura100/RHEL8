@@ -4,4 +4,44 @@ systemctl status sshd
 ip addr
 --ver directorio donde estamos
 pwd
+--ver lo que hay dentro de un drectorio
+ls -la
+-- crear archivo
+touch file1 file2
+touch text{1..50}.txt
+--mostrar archivo
+cat file1
+cat > file1
+this is thew first line
+cat >> file1
+this is the secoind line
+--editar archivo
+vi file1
+-- crear directorio 
+mkdir /hola
+mkdir -p /hola/quetal
+--eliminar directorio
+rmdir /hola
+--history
+nos muestra una lista con todos los comandos ejecutados
+--si queremos ejecutar el comando número 71
+!71
+--si queremos ejecutar el último comando
+!!
+-- ver S.O. instalado
+uname -a
+--date
+date +%F
+date +%d+%M-%Y
+touch file-`date +%d+%M-%Y`
+
+---comanod cp, copiar
+cp hola.txt /disc0/ficheros
+--copiar mantenidoe los privielgios
+cp -pv hola.txt /disc0/ficheros
+
+--mover ficheros direcotrios, rename
+mv file1 file1.old
+
+
 
