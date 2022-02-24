@@ -77,7 +77,8 @@ grep First demofile
 grep -i first demofile
 -- ocultar linias
 grep -vi first demofile
-
+-- ocultar varias linias
+grep -vie "first" -e "last" demofile
 
 
 
