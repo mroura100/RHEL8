@@ -65,6 +65,12 @@ tar -cvzf etccomprimido.tar.gz /etc/*
 -- encontrar un achivo
 find /home/marc -iname etccomprimido.tar.gz
 
+-- std output info error
+stdin -0 
+stdount -1
+stderr - 2
+ls /root 2> /tmp/error.log
+
 
 
 
