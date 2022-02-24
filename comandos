@@ -79,6 +79,12 @@ grep -i first demofile
 grep -vi first demofile
 -- ocultar varias linias
 grep -vie "first" -e "last" demofile
+-- mostrar varias linias
+grp Fisrt -A 3 demofile
+-- cuantas veces se repite la palabra
+grep first -C demofile
+
+-- Archivos y comprimidos
 
 
 
