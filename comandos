@@ -51,6 +51,19 @@ ps
 -- ver procesos de un usuario
 ps -u marc
 
+-- Cambiar permisos ficheros
+chown marc:marc fitxer1.txt
+-- cambiamos solo el grupo
+chgrp mar fitxer1.txt
+
+-- ver tamaño directorio
+du -sh /etc/*
+
+-- comprimir un directorio o ficheros
+tar -cvzf etccomprimido.tar.gz /etc/*
+
+-- encontrar un achivo
+find /home/marc -iname etccomprimido.tar.gz
 
 
 
