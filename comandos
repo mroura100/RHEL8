@@ -71,6 +71,12 @@ stdount -1
 stderr - 2
 ls /root 2> /tmp/error.log
 
+-- grep
+grep First demofile
+-- grep ingnore case sensitive
+grep -i first demofile
+-- ocultar linias
+grep -vi first demofile
 
 
 
