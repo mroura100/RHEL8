@@ -28,6 +28,9 @@ nos muestra una lista con todos los comandos ejecutados
 !71
 --si queremos ejecutar el último comando
 !!
+-- limpiar history
+history -c
+
 -- ver S.O. instalado
 uname -a
 --date
@@ -42,6 +45,15 @@ cp -pv hola.txt /disc0/ficheros
 
 --mover ficheros direcotrios, rename
 mv file1 file1.old
+
+-- Procesos
+ps
+-- ver procesos de un usuario
+ps -u marc
+
+
+
+
 
 
 
